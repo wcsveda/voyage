@@ -1,0 +1,7 @@
+extends boilerplate/skeleton.pug
+
+block body
+  h3.bg-primary.p-1.text-white {{getName()}}'s TODO List
+  .my-1
+    input.form-control(#todoText)/
+    button.btn.btn-primary.mt-1((click)="addItem(todoText.value)")

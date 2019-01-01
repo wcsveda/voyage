@@ -1,0 +1,37 @@
+doctype
+html(class=html_class, lang=lang)
+ head
+  //-	Bootstrap has three tags that must be at the beginning of the <head> tag. These tags
+  //-	are used for text encoding and improved visualization on mobile devices: 
+  meta(charset="utf-8")
+  meta(http-equiv="x-ua-compatible", content="IE=edge")
+  if responsive
+   meta(name="viewport", content="width=device-width, initial-scale=1")
+  |
+  |
+  title= title || ""
+  meta(name="description", content=description || "")
+  meta(name="author", content=author || "")  
+  |
+  |
+  if stylesheets
+   each css in stylesheets
+    link(rel="stylesheet", href=css)
+    |
+    |
+  if(ie9)
+    include ie9_support.html
+
+  if scripts
+   each js in scripts
+    script(src=js)
+
+ body
+  if(old_browser_warning)
+   include old_browser_warning.html
+  if(google_analytics)
+   script
+    include google_analytics.js
+  |
+  |
+  block body_content

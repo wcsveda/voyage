@@ -1,0 +1,69 @@
+
+//- 
+   data = {
+     "id":"navbar",
+     "navbar-class":undefined,
+     "navbar-nav-class":"mr-auto",
+     "search-bar": true,
+     "links":undefined
+   }
+
+mixin navbar-collapse(data = { "id":"navbar", "navbar-collapse-class":undefined, "navbar-nav-class":"mr-auto", "search-bar": true, "links":undefined })
+ .navbar-collapse.collapse(id=data.id || "navbar", class=data["navbar-collapse-class"])
+  - 
+    data["id"] =  data["id"] || "navbar";
+    data["navbar-nav-class"] = data["navbar-nav-class"] ||  "mr-auto";
+    data["search-bar"] =  data["search-bar"] || true;
+
+  ul.navbar-nav(class=data["navbar-nav-class"])
+   if data.links
+    each v,i in data.links
+     if i == 0
+      li.nav-item.active: a(href="#").nav-link= v
+       span.sr-only (current)
+     else if Array.isArray(v)
+      +dropdown(data["dropdown-id"])
+     else 
+      li.nav-item: a(href="#").nav-link= v
+   else
+    +dummy-navbar-nav
+  if data["search-bar"] 
+   +form_inline_search_bar
+
+mixin dummy-navbar-nav
+   li.nav-item.active: a(href="#").nav-link Home #[span.sr-only (current)]
+   li.nav-item: a(href="#").nav-link Link
+   li.nav-item: a(href="#").nav-link.disabled Disabled
+   li.dropdown.nav-item
+    a#dropdown01.nav-link.dropdown-toggle(href="http://example.com", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false") Dropdown
+    .dropdown-menu(aria-labelledby="dropdown01")
+     each v in ["Action", "Another Action", "Something else is here"]
+      a.dropdown-item(href="#")= v 
+
+mixin dropdown(dropdownId, links)
+ li.nav-item.dropdown
+  a.nav-link.dropdown-toggle(id=dropdownId, href="http://example.com", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false") Dropdown
+  .dropdown-menu(aria-labelledby=dropdownId)
+   each v in links
+    a.dropdown-item(href="#")= v 
+
+mixin form_inline_search_bar(form_class=" my-2 my-lg-0")
+ form(class=form_class).form-inline
+  input(type="text", placeholder="Search").form-control.mr-sm-2
+  button(type="submit").btn.btn-outline-success.my-2.my-sm-0 Search
+
+mixin navbar_toggle_button(target_id = "navbar", toggler_position = "navbar-toggler-right")
+ button(type="button", data-toggle="collapse", data-target="#"+target_id, aria-controls=target_id, aria-expanded="false", aria-label="Toggle Navigation", class=toggler_position).navbar-toggler
+  span.navbar-toggler-icon
+
+mixin navbar-brand(text, href)
+ a.navbar-brand(href=href)= text
+
+//- ---------------------Simple navbars----------------------
+
+//- navbar_class = "navbar-toggleable-md", brand = "", id = "navbar",  addSearchbar = true, links
+mixin simple-navbar(data = {"navbar-class": "navbar-toggleable-md", brand:"", id:"navbar"})
+ nav.navbar(class=data["navbar-class"])
+  +navbar_toggle_button(data.id)
+  +navbar-brand(data.brand)
+  +navbar-collapse(data)

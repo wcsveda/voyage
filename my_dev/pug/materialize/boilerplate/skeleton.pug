@@ -1,0 +1,46 @@
+doctype
+html(lang="en")
+ head
+  <meta charset="utf-8">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  title= title || "materialize"
+  meta(name="description", content=description || "")  
+  meta(name="author", content=author || "")  
+
+  <!-- Compiled and minified CSS -->
+  if offline 
+   <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+  else
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  
+  if stylesheets
+   each css in stylesheets
+    link(rel="stylesheet", href=css)
+  
+  if !nojs
+   if offline
+     <script src="node=jquery"></script>
+     <script src="node=materialize-css"></script>
+   else
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    
+  if scripts
+   each js in scripts
+    script(src=js)
+  
+  if(ie9)
+    include ie9_support.html
+
+ body
+  if(old_browser_warning)
+   include old_browser_warning.html
+  if(google_analytics)
+   script
+    include google_analytics.js
+  |
+  |
+  block body_content
+  |
+  |
