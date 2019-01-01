@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Flexbox example</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script src="js/index.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h3 class="bg-primary p-1 text-white">{{getName()}}'s TODO List</h3>
+    <div class="my-1">
+        <input class="form-control" #todoText/>
+        <button class="btn btn-primary mt-1" (click)="addItem(todoText.value)"></button>
+    </div>
+</body>
+
+</html>

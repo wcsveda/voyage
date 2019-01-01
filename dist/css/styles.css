@@ -1,0 +1,40 @@
+.ball3 {
+    -webkit-animation: second-animation 2s 2s 3 alternate ease-in-out forwards;
+            animation: second-animation 2s 2s 3 alternate ease-in-out forwards;
+}
+
+@-webkit-keyframes second-animation {
+    0 {
+        fill:blue;
+        -webkit-transform:translateX(0);
+                transform:translateX(0);
+    }
+    50% {
+        fill:purple;
+        -webkit-transform:translateX(50px);
+                transform:translateX(50px);
+    }
+    100% {
+        fill:red;
+        -webkit-transform:translateX(100px);
+                transform:translateX(100px);
+    }
+}
+
+@keyframes second-animation {
+    0 {
+        fill:blue;
+        -webkit-transform:translateX(0);
+                transform:translateX(0);
+    }
+    50% {
+        fill:purple;
+        -webkit-transform:translateX(50px);
+                transform:translateX(50px);
+    }
+    100% {
+        fill:red;
+        -webkit-transform:translateX(100px);
+                transform:translateX(100px);
+    }
+}

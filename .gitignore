@@ -6,4 +6,3 @@ node_modules
 *.lnk
 yarn.lock
 /my_dev/_working/
-/dist/
