@@ -53,5 +53,8 @@
     "prompt-confirm": "^2.0.4",
     "stream": "^0.0.2",
     "write-json": "^3.0.1"
+  },
+  "dependencies": {
+    "gulp-sass": "^4.0.2"
   }
 }

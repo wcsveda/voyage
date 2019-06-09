@@ -71,7 +71,8 @@ function createConfig() {
             console.log(chalk.red('no modification to: '), '.current_config.json');
             return;
         }
-        config['mode'] = mode;
+		delete config.gulp;
+		config.mode = mode;
         args[mode] = true;
     }
     return { data: config, to: process.env.TASK_ROOT+'current_config.json' };
@@ -84,19 +85,19 @@ function createSetting() {
     }
 
     const check = s => args[s] ? false : true;
-    const setting = require('./.vscode/settings.json');
+    const setting = require('../.vscode/settings.json');
     const f = setting['files.exclude'];
 
     for (const key in f)
         f[key] = true;
 
     f['gulp*'] = check('gulp');
-    f['**/bootstrap3*/**'] = check('bootstrap3');
-    f['**/bootstrap4*/**'] = check('bootstrap4');
-    f['**/materialize*/**'] = check('materialize');
-    f['css/pcss'] = check('postcss');
-    f['css/scss'] = check('scss');
-    f['pug/general'] = check('postcss') === false ? false : check('scss') === false ? false : true;
+    f['my_dev/**/bootstrap3*/**'] = check('bootstrap3');
+    f['my_dev/**/bootstrap4*/**'] = check('bootstrap4');
+    f['my_dev/**/materialize*/**'] = check('materialize');
+    f['my_dev/css/pcss'] = check('postcss');
+    f['my_dev/css/scss'] = check('scss');
+    f['my_dev/pug/general'] = check('postcss') === false ? false : check('scss') === false ? false : true;
     f['LEARN'] = check('learn');
     f['_working'] = check('working');
 

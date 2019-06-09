@@ -75,5 +75,5 @@ gulp.task('setmode',  function() {
     const obj = Object.assign({}, gulp_util.env);
     delete obj['_'];
     console.log(require('./.vscode/settings.json'));
-    // require(TASK_ROOT+'change-mode.js')(obj);
+    require(TASK_ROOT+'change-mode.js')(obj);
 });

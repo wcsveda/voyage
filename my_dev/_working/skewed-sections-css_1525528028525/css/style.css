@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(rgba(109, 26, 232, 0.7), rgba(109, 26, 232, 0.7)), url(https://www.toptal.com/designers/subtlepatterns/patterns/spiration-light.png);
+}
+
+h1 {
+  font-weight: 400;
+  font-family: "Baloo", cursive;
+}
+
+main {
+  margin: 5rem 0 0;
+}
+
+.container {
+  background: #FFFF8D;
+  z-index: 1;
+  padding: 3rem 0 4rem;
+  max-width: 600px;
+  margin: -1px auto;
+  -webkit-transform: skewY(-10deg);
+          transform: skewY(-10deg);
+}
+.container:nth-child(even) {
+  background: #FFEB3B;
+}
+
+.content {
+  background: transparent;
+  padding: 1rem;
+  -webkit-transform: skewY(10deg);
+          transform: skewY(10deg);
+}

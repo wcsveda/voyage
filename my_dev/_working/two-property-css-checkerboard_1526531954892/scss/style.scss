@@ -1,0 +1,7 @@
+html {
+	background-image: repeating-linear-gradient(#000 0, #000 1em, #fff 1em, #fff 2em), repeating-linear-gradient(90deg, #000 0, #000 1em, #fff 1em, #fff 2em);
+	background-blend-mode: exclusion;
+}
+
+// Demo styles
+html { height: 100vh; }

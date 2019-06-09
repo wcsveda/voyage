@@ -31,7 +31,7 @@ for /f "tokens=1,* delims= " %%a in ("%*") do set RESTVAR=%%b
 
 if %first%==change (
    echo %RESTVAR%
-  node .myfiles\change-mode.js %RESTVAR%
+  node my_dev\change-mode.js %RESTVAR%
   goto:eof
 )
 echo unknown command: %*
