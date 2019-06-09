@@ -8,7 +8,7 @@ process.env.css_dest = dist_dir+"css/"
 process.env.img_dir = dist_dir+"imgs/"
 process.env.html_dir = dist_dir;
 
-const TASK_ROOT = process.env.ROOT;
+const TASK_ROOT = process.env.TASK_ROOT;
 
 const modes = {
     scss: 'scss',
@@ -35,6 +35,7 @@ if(process.argv[2] == 'config') {
 }
 
 const gulp = require('gulp');
+const gulp_util = require('gulp-util');
 passValues["gulp"] = gulp;
 
 const common =  name => require(Paths.resolve(TASK_ROOT, name, name.concat('.js')))(passValues); 
@@ -70,6 +71,9 @@ addTasks(['default', 'a', 'all'], ['wa', 'watch-all'], [css, pug]);
 addTasks(['css', 'c'], ['watch-css', 'wc'], [css]);
 addTasks(['pug', 'p'], ['watch-pug', 'wp'], [pug]);
 
-gulp.task("toast", function() {
-	console.log(pug());
-})
+gulp.task('setmode',  function() {
+    const obj = Object.assign({}, gulp_util.env);
+    delete obj['_'];
+    console.log(require('./.vscode/settings.json'));
+    // require(TASK_ROOT+'change-mode.js')(obj);
+});

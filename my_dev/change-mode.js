@@ -1,30 +1,32 @@
-const chalk = require('chalk');
-
-if (process.argv.length < 3) {
-    console.log("not commands specified: ", process.argv.slice(2));
-    return;
-}
-const args = require('args-parser')(process.argv),
-    colorz = require('json-colorz'),
+const chalk = require('chalk'),
+   colorz = require('json-colorz'),
     Confirm = require('prompt-confirm');
-
 
 colorz.level.spaces = 2
 colorz.level.start = 1
 
 function colored(title, json) {
-    console.log(chalk.yellow("\n----------------\n"+title+"\n----------------\n"));
+    console.log(chalk.yellow("\n----------------\n" + title + "\n----------------\n"));
     colorz(json);
 }
 
-colored("args", args);
-
+let args;
 const isDefined = value => value !== undefined;
 
-const config = createConfig(),
-    setting = createSetting();
+module.exports = function (args0) {
+    if (Object.keys(args0).length == 0) {
+        console.log("not commands specified: ", args);
+        return;
+    }
 
-write(config, setting);
+    args = args0;
+    colored("args", args);
+
+    const config = createConfig(),
+        setting = createSetting();
+    
+    write(config, setting);
+}
 
 function write(first, second) {
     if (first) {
@@ -72,7 +74,7 @@ function createConfig() {
         config['mode'] = mode;
         args[mode] = true;
     }
-    return { data: config, to: './.myfiles/current_config.json' };
+    return { data: config, to: process.env.TASK_ROOT+'current_config.json' };
 }
 
 function createSetting() {
@@ -82,7 +84,7 @@ function createSetting() {
     }
 
     const check = s => args[s] ? false : true;
-    const setting = require('../.vscode/settings.json');
+    const setting = require('./.vscode/settings.json');
     const f = setting['files.exclude'];
 
     for (const key in f)

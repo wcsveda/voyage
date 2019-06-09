@@ -1,6 +1,5 @@
 const im = require("./default.json");
 
-im.title = "Flexbox example";
 im.stylesheets.push("css/styles.css");
 
 const fromNode = [

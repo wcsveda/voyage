@@ -32,7 +32,8 @@ const gulp_util = require( 'gulp-util' ),
     open = require( 'gulp-open' ),
     gulpif = require( 'gulp-if' ),
     html_prettify = require( 'gulp-html-prettify' ),
-    print = require( 'gulp-print' ).default;
+    print = require( 'gulp-print' ).default,
+    rename = require('gulp-rename');
 
 function join_normalize( ...paths ) {
     const c = './' + PATH.win32.normalize( paths.join( '/' ) );
@@ -91,6 +92,9 @@ function task() {
             indent_char: ' ',
             indent_size: 4
         } ) ) )
+        .pipe(rename(path => {
+            path.dirname = '';
+        }))
         .pipe( gulp.dest( process.env.html_dir ) )
         .pipe( print() )
         .pipe( gulpif( gulp_util.env.hasOwnProperty( 'open' ), open() ) );

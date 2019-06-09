@@ -1,18 +1,18 @@
-.ball3 {
-    animation: second-animation 2s 2s 3 alternate ease-in-out forwards;
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-@keyframes second-animation {
-    0 {
-        fill:blue;
-        transform:translateX(0);
-    }
-    50% {
-        fill:purple;
-        transform:translateX(50px);
-    }
-    100% {
-        fill:red;
-        transform:translateX(100px);
-    }
+img {
+    display: block;
+}
+
+#gallery {
+    position: relative;
+    z-index: 2;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
 }
