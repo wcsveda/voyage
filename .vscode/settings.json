@@ -1,0 +1,46 @@
+{
+  "files.exclude": {
+    "_working": true,
+    ".eslintrc.js": true,
+    ".gitignore": true,
+    ".jsbeautifyrc": true,
+    ".my_dev/": true,
+    ".vscode": true,
+    "*.cmd": true,
+    "*.lnk": true,
+    "*.zip": true,
+    "dist/**/bootstrap*/": true,
+    "dist/**/fonts": true,
+    "dist/**/vendor": true,
+    "dist/css/postcss-icons": true,
+    "gulp*": true,
+    "LEARN": true,
+    "live-server.js": true,
+    "node_modules": true,
+    "package.json": true,
+    "tsconfig.json": true,
+    "typescript": true,
+    "yarn.lock": true,
+    "my_dev/**/bootstrap3*/**": true,
+    "my_dev/**/bootstrap4*/**": true,
+    "my_dev/**/materialize*/**": true,
+    "my_dev/css/pcss": false,
+    "my_dev/css/scss": true,
+    "my_dev/pug/general": false,
+	    "my_dev/backup": true,
+    "change-mode.js": true,
+    "current_config.json": true,
+    "requires.txt": true,
+    "toast.js": true,
+    "typescript": true,
+    "my_dev/_working": true,
+	"my_dev/css/_configs":true,
+	"my_dev/css/css.js":true
+  },
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "emmet.syntaxProfiles": {
+    "postcss": "css"
+  }
+}
