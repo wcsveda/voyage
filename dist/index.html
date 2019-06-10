@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <script src="js/index.js" defer></script>
-    <link rel="stylesheet" href="css/styles.css">
     <title>DailyUI #016 - Popup / Overlay</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js">
+    </script>
 </head>
 
 <body>
-    <div id="gallery">
+    <div id="gallery" onclick="clicked(event)">
         <figure>
             <img src="https://images.unsplash.com/photo-1448814100339-234df1d4005d?crop=entropy&amp;fit=crop&amp;fm=jpg&amp;h=400&amp;ixjsv=2.1.0&amp;ixlib=rb-0.3.5&amp;q=80&amp;w=600">
             <figcaption>Daytona Beach <small>United States</small>
@@ -74,6 +72,12 @@
             <img src="https://images.unsplash.com/photo-1441906363162-903afd0d3d52?crop=entropy&amp;fit=crop&amp;fm=jpg&amp;h=400&amp;ixjsv=2.1.0&amp;ixlib=rb-0.3.5&amp;q=80&amp;w=600">
             <figcaption>Highlands <small>United States</small>
             </figcaption>
+        </figure>
+    </div>
+    <div id="popup" style="display:none">
+        <figure>
+            <img>
+            <figcaption></figcaption>
         </figure>
     </div>
 </body>
