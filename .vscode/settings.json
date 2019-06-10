@@ -34,7 +34,8 @@
     "toast.js": true,
     "my_dev/_working": true,
     "my_dev/css/_configs": true,
-    "my_dev/css/css.js": true
+    "my_dev/css/css.js": true,
+	"README.md":true
   },
   "emmet.includeLanguages": {
     "postcss": "css"
