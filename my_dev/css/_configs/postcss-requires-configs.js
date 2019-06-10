@@ -25,7 +25,7 @@ function postcss_icon_material_design(data) {
 
 const configs = {
     // "autoprefixer": { browserslist: ['last 1 versions'] },
-    "postcss-utilities": { centerMethod: 'flexbox' }
+  //  "postcss-utilities": { centerMethod: 'flexbox' }
 }
 
 let loc, data;
