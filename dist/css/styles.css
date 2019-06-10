@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+    display: block;
+}
+
+#gallery {
+    position: relative;
+    z-index: 2;
+    padding: 10px;
+    display: flex;
+    flex-flow: nowrap;
+}
+
+@for $i from 1 to 3 {
+  .b-$i { width: $(i)px; }
+}

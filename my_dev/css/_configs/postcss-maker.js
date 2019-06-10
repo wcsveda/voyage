@@ -1,7 +1,7 @@
 let isProduction, gulp, config,
     postcss, pcssFunction, cssnano;
 
-const loc = require('path').resolve(__dirname, "postcss-requires.txt");
+const loc = require('path').resolve(__dirname, "postcss-requires-list.js");
 
 module.exports = function (data) {
     ({ isProduction, gulp, config } = data);
@@ -9,7 +9,7 @@ module.exports = function (data) {
     console.log(chalk.gray('init-postcss'));
     postcss = require('gulp-postcss');
     cssnano = isProduction ? undefined : require('cssnano');
-    pcssFunction = require('./postcss-requires.js')(data, loc);
+    pcssFunction = require('./postcss-requires-configs.js')(data, loc);
 
     return maker;
 };

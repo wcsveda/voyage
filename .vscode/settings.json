@@ -27,20 +27,22 @@
     "my_dev/css/pcss": false,
     "my_dev/css/scss": true,
     "my_dev/pug/general": false,
-	    "my_dev/backup": true,
+    "my_dev/backup": true,
     "change-mode.js": true,
     "current_config.json": true,
     "requires.txt": true,
     "toast.js": true,
-    "typescript": true,
     "my_dev/_working": true,
-	"my_dev/css/_configs":true,
-	"my_dev/css/css.js":true
+    "my_dev/css/_configs": true,
+    "my_dev/css/css.js": true
   },
   "emmet.includeLanguages": {
     "postcss": "css"
   },
   "emmet.syntaxProfiles": {
     "postcss": "css"
+  },
+  "files.associations": {
+    "*.pcss": "scss"
   }
 }
