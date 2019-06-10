@@ -1,19 +1,8 @@
-<!DOCTYPE html>
-html(lang="en")
-  head
-    title DailyUI #016 - Popup / Overlay
-    link(rel="stylesheet", href="css/styles.css")
-    script(src="js/index.js") 
-  body
-    #gallery(onclick='clicked(event)')
-      - data = [{"img":"https://images.unsplash.com/photo-1448814100339-234df1d4005d?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600","caption":"Daytona Beach <small>United States</small>"},{"img":"https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600","caption":"Териберка, gorod Severomorsk <small>Russia</small>"},{"img":"https://images.unsplash.com/photo-1445964047600-cdbdb873673d?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600","caption":"\n      Bad Pyrmont <small>Deutschland</small>\n    "},{"img":"https://images.unsplash.com/photo-1439798060585-62ab242d7724?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600","caption":"Yellowstone National Park <small>United States</small>"},{"img":"https://images.unsplash.com/photo-1440339738560-7ea831bf5244?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600","caption":"Quiraing, Portree <small>United Kingdom</small>"},{"img":"https://images.unsplash.com/photo-1441906363162-903afd0d3d52?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600","caption":"Highlands <small>United States</small>"},{"img":"https://images.unsplash.com/photo-1448814100339-234df1d4005d?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600","caption":"Daytona Beach <small>United States</small>"},{"img":"https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600","caption":"Териберка, gorod Severomorsk <small>Russia</small>"},{"img":"https://images.unsplash.com/photo-1445964047600-cdbdb873673d?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600","caption":"\n      Bad Pyrmont <small>Deutschland</small>\n    "},{"img":"https://images.unsplash.com/photo-1439798060585-62ab242d7724?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600","caption":"Yellowstone National Park <small>United States</small>"},{"img":"https://images.unsplash.com/photo-1440339738560-7ea831bf5244?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600","caption":"Quiraing, Portree <small>United Kingdom</small>"},{"img":"https://images.unsplash.com/photo-1441906363162-903afd0d3d52?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600","caption":"Highlands <small>United States</small>"}]
-      each o in data
-        figure
-          img(src=o.img)
-          figcaption!=o.caption
-    #popup(style='display:none')
-      figure
-        img
-        figcaption
-        button(onclick="close()")
-    
+extends ./boilerplate/skeleton.pug
+
+block head
+  title hello world 
+
+block body
+  h1 hello world
+  
