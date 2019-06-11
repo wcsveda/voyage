@@ -22,6 +22,11 @@ if %1==collect (
   goto:eof
 )
 
+if %1==swa {
+  start gulp wa
+  start node live-server.js
+  goto:eof
+}
 
 set first=%1
 set second=%2

@@ -1,15 +1,18 @@
 nav#top-nav
   ul
-    mixin link(icon, text)
+    mixin icon(name)
+      span(class=['fa', 'fa-' + name])
+    
+    mixin link(icon_name, text)
       li
         a(href="#")
-          i.material-icons=icon
+          +icon(icon_name)
           =text
 
-    +link('person', 'Agent Login')
-    +link('person', 'Customer Login')
+    +link('user', 'Agent Login')
+    +link('user', 'Customer Login')
     li
-      i.material-icons note_add
+      +icon('file-o')
       | Not A Member? 
       a#register_link(href="#") Register
     li Call Us Now: 815-123-4567
