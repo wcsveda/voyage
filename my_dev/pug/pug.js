@@ -1,5 +1,5 @@
 let isProduction;
-const dir = "." + __dirname.replace(process.cwd(), "").replace(/\\/g, '/') + "/";
+const dir = '.' + __dirname.replace( process.cwd(), '' ).replace( /\\/g, '/' ) + '/';
 
 const baseDirs = {
     postcss: dir+'general/',
@@ -9,14 +9,14 @@ const baseDirs = {
     materialize: dir+'materialize/'
 };
 
-let gulp, basedir;
+let basedir;
 
 module.exports = function ( data ) {
-    ( { isProduction, gulp } = data );
+    ( { isProduction} = data );
     basedir = baseDirs[data.mode];
 
     console.log( 'pug baseDir: ', basedir );
-    
+
     return {
         watchDir: [basedir + '**/*', basedir + '*'],
         task: task,
@@ -24,7 +24,9 @@ module.exports = function ( data ) {
     };
 };
 
-const gulp_util = require( 'gulp-util' ),
+const
+    gulp = require( 'gulp' ),
+    gulp_util = require( 'gulp-util' ),
     PATH = require( 'path' ),
     fs = require( 'fs' ),
     pug = require( 'gulp-pug' ),
@@ -33,7 +35,7 @@ const gulp_util = require( 'gulp-util' ),
     gulpif = require( 'gulp-if' ),
     html_prettify = require( 'gulp-html-prettify' ),
     print = require( 'gulp-print' ).default,
-    rename = require('gulp-rename');
+    rename = require( 'gulp-rename' );
 
 function join_normalize( ...paths ) {
     const c = './' + PATH.win32.normalize( paths.join( '/' ) );
@@ -46,7 +48,7 @@ function getPugConfigPath() {
     if ( gulp_util.env.config )
         return join_normalize( configdir, gulp_util.env.config );
 
-    let temp = join_normalize( configdir, filename );
+    const temp = join_normalize( configdir, filename );
 
     if ( fs.existsSync( temp + '.json' ) ) return temp + '.json';
     if ( fs.existsSync( temp + '.js' ) ) return temp + '.js';
@@ -71,7 +73,7 @@ function initPug() {
 function task() {
     // --file [common file name of .pug and .json/js file (without extension)]
     // if --file is specified 'index is is used by default'
-    // --config [full name of the config file] 
+    // --config [full name of the config file]
 
     initPug();
 
@@ -92,9 +94,9 @@ function task() {
             indent_char: ' ',
             indent_size: 4
         } ) ) )
-        .pipe(rename(path => {
+        .pipe( rename( path => {
             path.dirname = '';
-        }))
+        } ) )
         .pipe( gulp.dest( process.env.html_dir ) )
         .pipe( print() )
         .pipe( gulpif( gulp_util.env.hasOwnProperty( 'open' ), open() ) );

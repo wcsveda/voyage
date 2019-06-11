@@ -1,10 +1,10 @@
-let isProduction, gulp, config,
+let isProduction, config,
     postcss, pcssFunction, cssnano;
 
 const loc = require('path').resolve(__dirname, "postcss-requires-list.js");
 
 module.exports = function (data) {
-    ({ isProduction, gulp, config } = data);
+    ({ isProduction, config } = data);
 
     console.log(chalk.gray('init-postcss'));
     postcss = require('gulp-postcss');
@@ -34,8 +34,9 @@ const rename = require('gulp-rename'),
 
 function maker() {
     const plumber = require('gulp-plumber');
+    const {src, dest} = require('gulp');
 
-    let stream = gulp.src(config.css_src)
+    let stream = src(config.css_src)
         .pipe(plumber({
             errorHandler(err) {
                 console.log(err + '');
@@ -48,17 +49,17 @@ function maker() {
     if (isProduction) {
         stream = stream
             .pipe(postcss(pcss()))
-            .pipe(gulp.dest(config.css_dest));
+            .pipe(dest(config.css_dest));
     } else {
         stream = stream
             .pipe(sourcemaps.init())
             .pipe(postcss(pcss()))
-            .pipe(gulp.dest(config.css_dest))
+            .pipe(dest(config.css_dest))
             .pipe(print())
             .pipe(postcss([cssnano]))
             .pipe(rename(path => path.basename += '.min'))
             .pipe(sourcemaps.write('./'))
-            .pipe(gulp.dest(config.css_dest));
+            .pipe(dest(config.css_dest));
     }
     return stream
         .pipe(print())

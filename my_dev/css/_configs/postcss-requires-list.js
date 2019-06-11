@@ -14,6 +14,6 @@ module.exports = [
 // 'postcss-nested-props'
 // 'lost'
 // 'postcss-css-reset', // https://www.npmjs.com/package/postcss-css-reset
-// 'autoprefixer',
+'autoprefixer'
 ];
 
