@@ -1,6 +1,8 @@
-const im = require("./default.json");
+const im = require( './default.json' );
 
-im.stylesheets.push("css/styles.css");
+im.stylesheets.push( 'https://fonts.googleapis.com/icon?family=Material+Icons' );
+im.stylesheets.push( 'css/styles.css' );
+
 
 const fromNode = [
 	//    "dat.gui",
@@ -8,12 +10,12 @@ const fromNode = [
     //    "seedrandom",
     // "holderjs",
     // "three"
-].map(name => "node=" + name);
+].map( name => 'node=' + name );
 
-const fromDist =  [
+const fromDist = [
 	// "js/vendor/redom.min.js",
-	//"js/index-browserify.js"
-    "js/index.js"
+	// "js/index-browserify.js"
+    'js/index.js'
 	];
 
 im.scripts = [...im.scripts, ...fromNode, ...fromDist];

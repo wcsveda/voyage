@@ -36,6 +36,7 @@
     "live-server": "^1.2.1",
     "lorem-ipsum": "^2.0.3",
     "lost": "^8.3.1",
+    "material-design-icons": "^3.0.1",
     "module-exists": "^0.2.1",
     "optional-js": "^2.1.1",
     "postcss-color-function": "^4.1.0",
@@ -46,6 +47,7 @@
     "postcss-easings": "^2.0.0",
     "postcss-for": "^2.1.1",
     "postcss-icon": "^8.0.1",
+    "postcss-icon.material-design": "^0.0.3",
     "postcss-jsmath": "^0.0.83",
     "postcss-mixins": "^6.2.1",
     "postcss-nested": "^4.1.2",
@@ -60,6 +62,7 @@
   "dependencies": {
     "eslint": "^5.16.0",
     "gulp-sass": "^4.0.2",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "postcss-material-icons": "^1.0.0"
   }
 }
