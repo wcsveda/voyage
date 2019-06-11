@@ -4,3 +4,4 @@ node_modules
 /node_modules/
 *.lnk
 yarn.lock
+voyage_template.psd
