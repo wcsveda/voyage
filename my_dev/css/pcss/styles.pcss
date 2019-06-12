@@ -134,8 +134,7 @@ html {
         color($primary-bgc a(0.8))
       ),
     url($img);
-    background-size: fill;
-    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -145,16 +144,15 @@ html {
     .background {
         height: 100%;
         width: 100%;
-    }
 
-    .background {
         @mixin bgimage https://source.unsplash.com/collection/2729367/1366x768;
+
         .navbtn {
             color:color(white a(0.5) );
             background: transparent;
             border: 0;
             font-size: 1.5em;
-            padding: 1% 2% ;
+            padding: 1% 2%;
             text-align: center;
             top:50%;
             position: absolute;
@@ -174,7 +172,6 @@ html {
             left: 50%;
             transform: translate(-50%, -50%);
             font-family: monospace;
-              
 
             p {
                 color:white;
@@ -188,10 +185,12 @@ html {
             }
 
             .buttons {
-                width: 100%;
+                width: 100%;   
                 outline: 1px solid red;
+                position: relative;
                 
                 button {
+                    margin-right: 1%;
                 color: white;
                 background: transparent;
                 border:1px solid white;
@@ -393,19 +392,22 @@ html {
         font-family: monospace;
 
         .card {
-            display: inline-block;
             color: white;
-            flex-basis: 10%;
+            flex-basis: 11%;
 
             span {
                 display: block;
                 text-align: center;
-                outline:1px solid red;
+            }
+
+            .svg_wrap {
+                text-align: center;
+                margin-bottom: 15px;
             }
             
             svg {
-                width: 50%;
-                height: 50%;
+                width: 60%;
+                height: 60%;
                 fill:white;
             }
 
