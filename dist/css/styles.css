@@ -1,10 +1,10 @@
 @font-face {
-	font-family: 'FontAwesome c5632b';
+	font-family: 'FontAwesome 33606b';
 	font-style: normal;
 	font-weight: 400;
-	src: url('data:application/font-woff2;charset=utf-8;base64,d09GMgABAAAAAAW4AAoAAAAACzwAAAVtAAQBywAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgmIKhjiFTwE2AiQDHAsQAAQgBYkMB2AbEgoRlaQDkf1IsG3tZEX6XkRHO8IiaU32hFd9vU4nGWh1lAcLMnu2g5M+wFlz2k9t2TxMByl1K6VtLwOmKMc58plECYD/OZZ6+byA7t6/IDvEin8VSVlAucDxgKKKhucDmfEcJ7ZleHXIO6AngIugRRABPo+3BTDD3R3LB2gONAEXnphTmpePXj/KP+VL8AMSCIAlw1grphVMbTVYFUEgsZ/h6AXABhMY+I/yjxV+XPPjk5/y/X4AU1b/0Pm381tnmrOtY2nHf4AASIKGMj7eAcAKwA+aicg2FdOZAuh9nFcwBcvmNiFD63rtiq1EcZYqk1SLa45Okw2Cz6rN987VvujvKeo8faoxX9mtwTTpkaVszhNSJj+1BszVGo9j9jUVklaUmm0ZDxRcpYo6bjkmPVPVd5Z5nuPWuV5ddwgdg0SamyqY7NXeuzfgxxvWuW7Dq44zFGaZowJ2n4XbRItgzd77nynP3lnmeAzvRu9+LVpkGDRZ16uItEMxSXNvr7pyY8W1TZ5UM2qYcHiOXndjBRF1P0xq7VPd+gua/PLj/PeKe586TtU1FokWMt5Zc+VKq5XZYeOTNh/WOhpvsy9BrHVJFhdBwiZzD4zC7MzytT6Pzzoj0+1a0XzVgIyCfsOmTMwwEsMK+g3ISAgzqlzC5R7v3hHnIfzatLMNoxtNalTcaBxg0yD1us+kRtENz07tW1Ky7mynTmcrtP8em4D/yyZAAhL7pfSJjepnrzZlKFvznXaiecY+57tFdZu+Pzg7hbaX14jh1Zquya6w5FAh71t/OOvddPj8sb6mQ0qWhR25bi6sN+PcuRnzohMzgqM71ctL6RFhRtfffjWt93QdOOh8/QYN//+jzR/+Rv4XZx7e278UMcLoLfdjYu4/zk6r2SUicMDkZoc6pHbqXnp+VvIPK/KKbr4fvyD1eOcJ0WHlTab3TRm5fljNlxMrXAzxCM3CVj56tnvlrq1T98z6Lr37YM+rvHoFFXw127Tv3aaHO9c9eFLcZld/Ie1+2H/KV4/bV24hvyW64uHu27iD3X1Ipn0ds8OHF9cq7lJrlzGwcq6nb0TLrCDPMJ7Ef901/N8RUo2rv/ap/uNwAgOAfv5JHBJAADjdNY0Iehjt7PabyXqtt6mN+23cGr80TgLwbpiBBrI3yDQJ9tRx78RRkIVJyBEBSBUOb8aBaAkAB/pVZMsYCiHNAFBa34v0V6IG3WlaDiaxvYFoGQKDjN4gIACDgCMQoUSRmg4SrBgPMkZjFphgw3Mww4LPwIoQ/HC9AzWIQwBxM4AoqoOAUI8mAYODtoGAOnRExYupqkrE1D9BQgVWDWRsYW1iJlRiVcGMYPYtWNFEQLED3YQmfbn4R/hEkeUKY3wRzNAlH6iHtbaBgbWQ/Tt4EPIkL0rMlJ0O3uS5JIhb7UY9OlJWWZTpbnteD4b93Xk6ue93x3Olw68kvmAHTdMxYfftxYG9JcSiXgipA5SNmZxgWiFPsdZzpyygKpUeASqYUInyAFSVIqryix1rEZOfpFKwTGybV2mu+uwHQVMNwstNwRnGwLaxZucp+Brx8yNFliuM8UUwQ5d8oB7W2gYGVh+HBuhj5eRJGhYnZspsWgdv2M1ll+uJW+1GPTpSVlmU6W57Xg+G/d15OrnvJTzGBuwOrxNw+6JaMTRNxxwPl9BHF+V7S4iliyGnaVC2MQd7bpm4uj/WAb0pN5IS2nQwcapYMCGZH+UBqNDOIqo6IDpxDOMJSrcThewi9zwwzLtLPvuBLh96EpugGWRIlbyBnQi6xWqDz64vTSXrHydGAnESSSKZF3qS37Sw9I9Wf/RdqCb2w5gi5sffs3DUAeT1W6sysgIA') format('woff2'), url(postcss-icons/styles-font-awesome-v4.c563.woff) format('woff');
+	src: url('data:application/font-woff2;charset=utf-8;base64,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') format('woff2'), url(postcss-icons/styles-font-awesome-v4.3360.woff) format('woff');
 }
-  .fa, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after {
+  .fa, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after, .fa-user:after, .fa-file-o:after, .fa-facebook:after, .fa-twitter:after, .fa-tumblr:after, .fa-pinterest:after, .fa-chevron-right:after, .fa-chevron-left:after, .fa-calendar:after, .fa-globe:after, .fa-chevron-down:after {
 	display: inline-block;
 	/* font-family: FontAwesome; */
 	font-size: inherit;
@@ -15,7 +15,7 @@
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-family: 'FontAwesome c5632b';
+	font-family: 'FontAwesome 33606b';
 }
   html {
     box-sizing: border-box;
@@ -24,52 +24,63 @@
     box-sizing: inherit;
   }
 
-  
-  
-  
+  #container {
+      height: 100vh;
+  }
+
   
 .fa-user:after {
 	content: '\F007'; 
     }
 
   
-  
-  
-  
 .fa-file-o:after {
 	content: '\F016'; 
     }
 
-  
-  
-  
   
 .fa-facebook:after {
 	content: '\F09A'; 
     }
 
   
-  
-  
-  
 .fa-twitter:after {
 	content: '\F099'; 
     }
 
-  
-  
-  
   
 .fa-tumblr:after {
 	content: '\F173'; 
     }
 
   
-  
-  
-  
 .fa-pinterest:after {
 	content: '\F0D2'; 
+    }
+
+  
+.fa-chevron-right:after {
+	content: '\F054'; 
+    }
+
+  
+.fa-chevron-left:after {
+	content: '\F053'; 
+    }
+
+  
+.fa-calendar:after {
+	content: '\F073'; 
+    }
+
+  
+.fa-globe:after {
+	content: '\F0AC'; 
+    }
+
+  
+.fa-chevron-down:after {
+	content: '\F078'; 
     }
 
 #top-nav {
@@ -133,12 +144,12 @@
         width: 80%;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
 
 #brand-nav nav h1 {
             display: inline;
-            outline: 1px solid red;
             padding: 0;
             margin: 0;
             font-size: 2em;
@@ -152,7 +163,6 @@
 
 #brand-nav nav ul {
             display: flex;
-            outline: 1px solid cyan;
             margin-top: 0;
             margin-bottom: 0;
             padding-left: 0;
@@ -190,4 +200,332 @@
                     word-wrap: normal;
                     color:#2D3E50;
                     text-transform: uppercase;
+                }
+
+
+#brand-nav nav ul li a.clicked {
+                        color: #1DD2AF;
+                    }
+
+
+#brand-nav nav ul li #search_button {
+                    background-image: url(imgs/magnifying-glass.svg);
+                    height: 3em;
+                    width: 3em;
+                    background-color: unset;
+                    display: inline-block;
+                    border: 0;
+                }
+
+
+#brand-nav nav ul li #search_button:focus, #brand-nav nav ul li #search_button:active {
+                        border:0;
+                    }
+
+
+#brand-nav nav ul li #search_button:active {
+                        border-style: outset;
+                      }
+
+#jumbo_carousal {
+    height: 80%;
+}
+
+#jumbo_carousal .background {
+        height: 100%;
+        width: 100%;
+    }
+
+#jumbo_carousal .background {
+        background: 
+    linear-gradient(
+        rgba(45, 62, 80, 0.8), 
+        rgba(45, 62, 80, 0.8)
+      ),
+    url(https://source.unsplash.com/collection/2729367/1366x768);
+        background-size: fill;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+#jumbo_carousal .background .navbtn {
+            color:rgba(255, 255, 255, 0.5);
+            background: transparent;
+            border: 0;
+            font-size: 1.5em;
+            padding: 1% 2% ;
+            text-align: center;
+            top:50%;
+            position: absolute;
+            background-color: rgba(108, 120, 133, 0.6);
+        }
+
+#jumbo_carousal .background .navbtn.next {
+            right: 0;
+        }
+
+#jumbo_carousal .background .navbtn.hasMoreValue {
+            background-color: #1DD2AF;
+            color:white;
+        }
+
+#jumbo_carousal .background .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: monospace;
+        }
+
+#jumbo_carousal .background .content p {
+                color:white;
+                text-align: center;
+                font-size: 2em;
+            }
+
+#jumbo_carousal .background .content p span {
+                    font-size: .5em;
+                    display: block;
+                }
+
+#jumbo_carousal .background .content .buttons {
+                width: 100%;
+                outline: 1px solid red;
+            }
+
+#jumbo_carousal .background .content .buttons button {
+                color: white;
+                background: transparent;
+                border:1px solid white;
+                padding: 2% 5%;
+                border-radius: 10%;
+                }
+
+#jumbo_carousal .background .content .buttons button.clicked {
+                    background-color: #1DD2AF;
+                }
+
+#holiday_finder {
+    background-color: #2D3E50;
+}
+
+#holiday_finder > div {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+#holiday_finder > div > * {
+            margin-right: 2%;
+        }
+
+#holiday_finder > div h2 {
+            font-family: monospace;
+            color:rgba(255, 255, 255, 0.7);
+            font-weight:300;
+            font-size: 1.2em;
+        }
+
+#holiday_finder > div h2 span {
+                display: block;
+                font-size: 1.5em;
+                color:white;
+            }
+
+#holiday_finder > div .separator {
+            display: block;
+            height: 100%;
+            outline: 1px solid red;
+        }
+
+#holiday_finder > div form {
+            display: flex;
+            width: 80%;
+            align-items: center;
+        }
+
+#holiday_finder > div form label {
+                margin-left: 5%;
+                margin-right: 2%;
+                color: white;
+                opacity: 0.7;
+                font-family: monospace;
+                font-size: 1.2em;
+            }
+
+#holiday_finder > div form .input {
+               padding: 1%;
+                background-color: white;
+            }
+
+#holiday_finder > div form .input input {
+                   border: 0;
+                   width: 90%;
+               }
+
+#holiday_finder > div form button {
+                margin-left: 2%;
+                background-color: #1DD2AF;
+                border: 0;
+                color:white;
+                padding: 1%;
+                width: 10%;
+            }
+
+.heading {
+    font-family: monospace;
+    font-weight: normal;
+    text-align: center;
+}
+
+.heading span {
+        display: block;
+        font-size: 0.6em;
+    }
+
+#special-offers {
+    height: 60%;
+}
+
+#special-offers .cards {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+
+    }
+
+#special-offers .cards .card {
+            margin: 5px;
+            background-color: rgb(237, 237, 237);
+            padding: 5px;
+            border-radius: 2%;
+            width: 40%;
+            height: 60%;
+            display: flex;
+            flex-direction: column;
+        }
+
+#special-offers .cards .card .img {
+                background-size: cover;
+                height: 80%;
+            }
+
+#special-offers .cards .card.scale1 {
+                width: 30%;
+                height: 50%;
+            }
+
+#special-offers .cards .card.scale2 {
+                width: 35%;
+                height: 55%;
+            }
+
+#special-offers .cards .card .content {
+                width: 100%;
+                height: 20%;
+                display: flex;
+                align-items: center;
+                padding: 3%;
+            }
+
+#special-offers .cards .card .content h3 {
+                    font-weight: normal;
+                    font-family: monospace;
+                    display: inline-block;
+                    width: 90%;
+                    color: gray;
+                    font-size: 1em;
+                }
+
+#special-offers .cards .card .content h3 span {
+                        display: block;
+                        font-size: 0.7em;
+                        opacity: 0.6;
+                    }
+
+#special-offers .cards .card .content button {
+                    width: 20%;
+                    background: transparent;
+                    border: 0;
+                }
+
+#special-offers .cards .card .content button .fa {
+                        color: gray;
+                    }
+
+#special-offers .cards .card.selected {
+                padding: 0;
+                width: 40%;
+                height: 65%;
+                border: 5px solid #1DD2AF;
+                border-radius: 2%;
+            }
+
+#special-offers .cards .card.selected .content {
+                background-color: #2D3E50;
+            }
+
+#special-offers .cards .card.selected .content h3 {
+                    color: white;
+                }
+
+#special-offers .cards .card.selected .content span {
+                    color:white;
+                }
+
+#holiday-types {
+    background: 
+    linear-gradient(
+        rgba(45, 62, 80, 0.8), 
+        rgba(45, 62, 80, 0.8)
+      ),
+    url(https://source.unsplash.com/vZq9_GBUOVI/1600x900);
+    background-size: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 2%;
+    
+}
+
+#holiday-types .heading {
+        color:white;
+    }
+
+#holiday-types .types {
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        font-family: monospace;
+    }
+
+#holiday-types .types .card {
+            display: inline-block;
+            color: white;
+            flex-basis: 10%;
+        }
+
+#holiday-types .types .card span {
+                display: block;
+                text-align: center;
+                outline:1px solid red;
+            }
+
+#holiday-types .types .card svg {
+                width: 50%;
+                height: 50%;
+                fill:white;
+            }
+
+#holiday-types .types .card.selected {
+                color:#1DD2AF;
+            }
+
+#holiday-types .types .card.selected svg {
+                    fill: #1DD2AF;
                 }

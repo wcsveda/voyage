@@ -5,7 +5,7 @@ module.exports = [
  'postcss-nested',
 // 'postcss-jsmath'
  'postcss-utilities', // https://github.com/ismamz/postcss-utilities
-// 'postcss-mixins'
+ 'postcss-mixins',
 // 'postcss-easings',  // https://github.com/postcss/postcss-easings
 // 'postcss-conditionals'
 

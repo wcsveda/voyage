@@ -12,7 +12,9 @@ nav#top-nav
       +icon('file-o')
       | Not A Member? 
       a.register_link(href="#") Register
-    li Call Us Now: 815-123-4567
+    li 
+      | Call Us Now:
+      a(href='tel:815-123-4567') 815-123-4567 
     li.gap: a
     +link('facebook')
     +link('twitter')

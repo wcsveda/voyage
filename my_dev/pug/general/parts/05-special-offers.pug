@@ -1,0 +1,19 @@
+section#special-offers
+  +heading('SPECIAL OFFERS', 'Best 2014 packages where people love to stay')
+  .cards
+    mixin card(title, subtitle, image, cls)
+      div(class=cls ? ['card', ...cls] : 'card')
+        .img(style=`background-image:url(https://source.unsplash.com/${image}/300x400)`)
+        .content 
+          h3
+            =title
+            span=subtitle || 'New Destination!'
+          button
+            +icon('chevron-down')
+    +card('Statue of liberty', null, 'DF1hKdVsn_c', ['scale1'])
+    +card('Spectacular Seychelles', null, 'UTP7ob5Kz9U', ['scale2'])
+    +card('Hong kong & Macau', 'Bonus Extras!', 'vpNtiucFhck' , ['selected'])
+    +card('Vietnam Highlights', null, 'tCM6cQjIQ7Q', ['scale2'])
+    +card('Spectacular Seychelles', null, 'FL8x-cTELok', ['scale1'])
+    
+    

@@ -1,0 +1,18 @@
+section#holiday_finder
+  div
+    h2 
+     | Find Your
+     span HOLYDAYS
+    span.separator 
+    form#holiday_finder_form
+      label(for="hff_destination") WHERE
+      div.input
+        input(type="text", id='hff_destination', name='destination', placeholder='destination')
+        +icon('globe')
+    
+      label(for="hff_date") WHEN
+      div.input
+        input(type="text", id='hff_date', name='date', placeholder='date')
+        +icon('calendar')
+    
+      button(type="submit") Search

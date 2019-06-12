@@ -5,9 +5,17 @@ block head
   
 block body
   #container 
-    mixin icon(name)
-      span(class=['fa', 'fa-' + name])
-
-    header
-      include ./parts/01-contact-nav.pug
-      include ./parts/02-brand-nav.pug
+      mixin icon(name)
+        span(class=['fa', 'fa-' + name])
+      mixin heading(title, subtitle)
+         h1.heading
+          =title 
+          span=subtitle
+    
+      header
+        include ./parts/01-contact-nav.pug
+        include ./parts/02-brand-nav.pug
+      include ./parts/03-jumbo-carousal.pug
+      include ./parts/04-holiday-finder.pug
+      include ./parts/05-special-offers.pug
+      include ./parts/06-holiday-types.pug
