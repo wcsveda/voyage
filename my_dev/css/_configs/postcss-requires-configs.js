@@ -32,7 +32,7 @@ function postcss_icon( data ) {
 
 const configs = {
     // "autoprefixer": { browserslist: ['last 1 versions'] },
-    //  "postcss-utilities": { centerMethod: 'flexbox' },
+    'postcss-utilities': { centerMethod: 'flexbox' },
     'postcss-icon': postcss_icon
 
 };

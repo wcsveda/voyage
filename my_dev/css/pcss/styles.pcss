@@ -6,57 +6,103 @@ html {
   }
 
   $highlight_color: #1DD2AF;
-  $top-nav-bgc: #2D3E50; 
+  $primary-bgc: #2D3E50; 
+  $default_width: 80%;
 
-
-@each $icon in user, file-o {
+  
+  
+  
+  
+@each $icon in user, file-o, facebook, twitter, tumblr, pinterest {
     .fa-$(icon):after {
         @icon: fa-$(icon); 
     }    
 }
 
 #top-nav {
-    background-color: $top-nav-bgc;
+    background-color: $primary-bgc;
     overflow: hidden;
     font-family: monospace;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 
     .fa:after {
         color:white;
         padding-right: 0.4em;
     }
 
-    & ul {
+    ul {
+        width: $default_width;
+        margin: auto;
         @util reset-list;
 
-        & li {
+        li {
             display: inline-block;
             color:white;
             padding: 0.5%;
-            padding-right: 1%;
-            border: 1px outset color($top-nav-bgc shade(5%));
+            border: 1px outset color($primary-bgc shade(5%));
             border-width: 0 1px 0 0;
 
-            & a {
+            a {
                 color: inherit;
                 text-decoration: none;
                 text-align: center;
                 display: inline-block;
             }
+
+            &.gap {
+                padding-right: 30%;
+            }
         }
     }
     
-#register_link {
+.register_link {
     color: $highlight_color;
 }
 }
 
 
-.custom-selector:after {
-    @icon: fa-500px; /* 'fa-' is Prefix , '500px' is name Icon*/
-    color: gold;
-    /* ... your css code */
-  }
+#brand-nav {
+    background-color: #fff;
+    outline: 1px solid green;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 
+    nav {
+        margin: auto;
+        width: $default_width;
+        display: flex;
+        justify-content: space-between;
+    
 
+        h1 {
+            display: inline;
+            outline: 1px solid red;
+            padding: 0;
+            margin: 0;
+            font-size: 2em;
 
+            span {
+                color: $highlight_color;
+            }
+        }
+
+        ul {
+            display: flex;
+            outline: 1px solid cyan;
+            @util reset-list;
+            width:60%;
+            justify-content: space-around;
+            align-items: center;
+    
+            li {
+                display: inline-block;
+
+                a {
+                    @util reset-text;
+                    color:$primary-bgc;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

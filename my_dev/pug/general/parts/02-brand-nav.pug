@@ -1,0 +1,12 @@
+section#brand-nav
+  nav.menu-list
+    h1.brand-logo 
+      | V
+      span O
+      | YAGE
+    ul
+      mixin link(text, url)
+        li: a(href=url || "#")=text
+      each val in ["HOME", "destination", 'criuses', 'specials', 'holidays', 'blog']
+        +link(val)
+      li: button.search_button

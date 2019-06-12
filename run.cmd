@@ -22,11 +22,11 @@ if %1==collect (
   goto:eof
 )
 
-if %1==swa {
-  start gulp wa
-  start node live-server.js
+if %1==swa (
+  start cmd /c "gulp wa"
+  start cmd /c "node live-server.js"
   goto:eof
-}
+)
 
 set first=%1
 set second=%2

@@ -1,11 +1,8 @@
 nav#top-nav
   ul
-    mixin icon(name)
-      span(class=['fa', 'fa-' + name])
-    
-    mixin link(icon_name, text)
+    mixin link(icon_name, text, url)
       li
-        a(href="#")
+        a(href=url || "#")
           +icon(icon_name)
           =text
 
@@ -14,6 +11,10 @@ nav#top-nav
     li
       +icon('file-o')
       | Not A Member? 
-      a#register_link(href="#") Register
+      a.register_link(href="#") Register
     li Call Us Now: 815-123-4567
-        
+    li.gap: a
+    +link('facebook')
+    +link('twitter')
+    +link('tumblr')
+    +link('pinterest')

@@ -5,5 +5,9 @@ block head
   
 block body
   #container 
-    include ./parts/01-contact-header.pug
-  
+    mixin icon(name)
+      span(class=['fa', 'fa-' + name])
+
+    header
+      include ./parts/01-contact-nav.pug
+      include ./parts/02-brand-nav.pug

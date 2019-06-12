@@ -1,6 +1,6 @@
 const im = require( './default.json' );
 
-im.stylesheets.push( 'https://fonts.googleapis.com/icon?family=Material+Icons' );
+im.stylesheets.push( 'css/vendor/normalize.css' );
 im.stylesheets.push( 'css/styles.css' );
 
 
