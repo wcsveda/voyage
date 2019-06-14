@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <script src="https://redom.js.org/redom.min.js" defer></script>
     <script src="js/index.js" defer></script>
     <link rel="stylesheet" href="css/vendor/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -14,29 +15,32 @@
 
 <body>
     <div id="container">
+        <!--include ./parts/07-reviews.pug-->
         <header>
             <nav id="top-nav">
-                <ul>
-                    <li><a href="#"><span class="fa fa-user"></span>Agent Login</a>
-                    </li>
-                    <li><a href="#"><span class="fa fa-user"></span>Customer Login</a>
-                    </li>
-                    <li><span class="fa fa-file-o"></span>Not A Member? <a class="register_link" href="#">Register</a>
-                    </li>
-                    <li>Call Us Now:<a href="tel:815-123-4567">815-123-4567 </a>
-                    </li>
-                    <li class="gap">
-                        <a></a>
-                    </li>
-                    <li><a href="#"><span class="fa fa-facebook"></span></a>
-                    </li>
-                    <li><a href="#"><span class="fa fa-twitter"></span></a>
-                    </li>
-                    <li><a href="#"><span class="fa fa-tumblr"></span></a>
-                    </li>
-                    <li><a href="#"><span class="fa fa-pinterest"></span></a>
-                    </li>
-                </ul>
+                <div>
+                    <ul>
+                        <li><a href="#"><span class="fa fa-user"></span>Agent Login</a>
+                        </li>
+                        <li><a href="#"><span class="fa fa-user"></span>Customer Login</a>
+                        </li>
+                        <li><span class="fa fa-file-o"></span>Not A Member? <a class="register_link" href="#">Register</a>
+                        </li>
+                        <li>Call Us Now:<a href="tel:815-123-4567">815-123-4567 </a>
+                        </li>
+                        <li class="gap">
+                            <a></a>
+                        </li>
+                        <li><a href="#"><span class="fa fa-facebook"></span></a>
+                        </li>
+                        <li><a href="#"><span class="fa fa-twitter"></span></a>
+                        </li>
+                        <li><a href="#"><span class="fa fa-tumblr"></span></a>
+                        </li>
+                        <li><a href="#"><span class="fa fa-pinterest"></span></a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
             <section id="brand-nav">
                 <nav>
@@ -70,9 +74,7 @@
                 <div class="content">
                     <p>TO TRAVEL IS TO LIVE <span>You Don't Need Magic to Disappear. All you need is a Destination.</span>
                     </p>
-                    <div class="buttons">
-                        <button class="clicked">SHOW ON THE MAP</button>
-                        <button>MORE INFO</button>
+                    <div class="buttons"><span> <button class="clicked">SHOW ON THE MAP</button><button>MORE INFO  </button></span>
                     </div>
                 </div>
             </div>
@@ -95,47 +97,8 @@
         </section>
         <section id="special-offers">
             <h1 class="heading">SPECIAL OFFERS<span>Best 2014 packages where people love to stay</span></h1>
-            <div class="cards">
-                <div class="card scale1">
-                    <div class="img" style="background-image:url(https://source.unsplash.com/DF1hKdVsn_c/300x400)"></div>
-                    <div class="content">
-                        <h3>Statue of liberty<span>New Destination!</span></h3>
-                        <button><span class="fa fa-chevron-down"></span>
-                        </button>
-                    </div>
-                </div>
-                <div class="card scale2">
-                    <div class="img" style="background-image:url(https://source.unsplash.com/UTP7ob5Kz9U/300x400)"></div>
-                    <div class="content">
-                        <h3>Spectacular Seychelles<span>New Destination!</span></h3>
-                        <button><span class="fa fa-chevron-down"></span>
-                        </button>
-                    </div>
-                </div>
-                <div class="card selected">
-                    <div class="img" style="background-image:url(https://source.unsplash.com/vpNtiucFhck/300x400)"></div>
-                    <div class="content">
-                        <h3>Hong kong &amp; Macau<span>Bonus Extras!</span></h3>
-                        <button><span class="fa fa-chevron-down"></span>
-                        </button>
-                    </div>
-                </div>
-                <div class="card scale2">
-                    <div class="img" style="background-image:url(https://source.unsplash.com/tCM6cQjIQ7Q/300x400)"></div>
-                    <div class="content">
-                        <h3>Vietnam Highlights<span>New Destination!</span></h3>
-                        <button><span class="fa fa-chevron-down"></span>
-                        </button>
-                    </div>
-                </div>
-                <div class="card scale1">
-                    <div class="img" style="background-image:url(https://source.unsplash.com/FL8x-cTELok/300x400)"></div>
-                    <div class="content">
-                        <h3>Spectacular Seychelles<span>New Destination!</span></h3>
-                        <button><span class="fa fa-chevron-down"></span>
-                        </button>
-                    </div>
-                </div>
+            <div>
+                <div class="cards"></div>
             </div>
         </section>
         <section id="holiday-types">
@@ -297,7 +260,7 @@
                         </svg>
                     </div><span>City Breaks</span>
                 </div>
-                <div class="card selected">
+                <div class="card">
                     <div class="svg_wrap">
                         <?xml version="1.0" encoding="iso-8859-1" ?>
                         <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -482,6 +445,110 @@
                 </div>
             </div>
         </section>
+        <section id="reviews">
+            <h1 class="heading">HAPPY CLIENTS<span>what customer say about us and why love our services!</span></h1>
+            <div class="review-carousal_parent"></div>
+        </section>
+        <footer>
+            <div id="footer1">
+                <div>
+                    <section class="newsletter">
+                        <h2>Newsletter</h2>
+                        <p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av.</p>
+                        <form>
+                            <input type="text" placeholder="Subscribes...">
+                            <button type="submit">GO</button>
+                        </form>
+                    </section>
+                    <section class="letest_news">
+                        <h2>Letest News</h2>
+                        <div class="news">
+                            <img src="https://source.unsplash.com/collection/973590/200x200" alt="Postformat Gallary: Multiple images">
+                            <p>Postformat Gallary: Multiple images
+                                <time>October 21, 2013 - 3:31 pm</time>
+                            </p>
+                        </div>
+                        <div class="news">
+                            <img src="https://source.unsplash.com/collection/2938669/200x200" alt="Snow Boarding is fun">
+                            <p>Snow Boarding is fun
+                                <time>December 12, 2012 - 9:11 pm</time>
+                            </p>
+                        </div>
+                    </section>
+                    <section class="tags">
+                        <h2>Tags</h2>
+                        <ul>
+                            <li><a href="#">Agent Login</a>
+                            </li>
+                            <li><a href="#">Customer Login</a>
+                            </li>
+                            <li><a href="#">Not a Member</a>
+                            </li>
+                            <li><a href="#">Contact</a>
+                            </li>
+                            <li><a href="#">New Horizons</a>
+                            </li>
+                            <li><a href="#">Landscape</a>
+                            </li>
+                            <li><a href="#">Tags</a>
+                            </li>
+                            <li><a href="#">Nice</a>
+                            </li>
+                            <li><a href="#">Some</a>
+                            </li>
+                            <li><a href="#">Portrait</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="address">
+                        <h2>Address</h2><address> DieSachbearbeiter Schonhauser Allee 167c,10435 Berlin Germany<a href="mailto:moin@blindtextgenerator.de"><span>E-mail:</span>moin@blindtextgenerator.de</a></address>
+                        <div class="social_links">
+                            <ul>
+                                <li>
+                                    <a href="#"> <span class="fa fa-facebook"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <span class="fa fa-twitter"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <span class="fa fa-tumblr"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <span class="fa fa-pinterest"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div id="footer2">
+                <div>
+                    <ul>
+                        <li><a class="selected" href="#">Home</a>
+                        </li>
+                        <li><a href="#">Destinations</a>
+                        </li>
+                        <li><a href="#">Criuses</a>
+                        </li>
+                        <li><a href="#">Spcials</a>
+                        </li>
+                        <li><a href="#">Holidays</a>
+                        </li>
+                        <li><a href="#">Blog</a>
+                        </li>
+                        <li><a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <p>Copyright @voyage. All Right Reserved</p>
+                </div>
+            </div>
+            <div id="backtotop"><a href="#"><span class="fa fa-arrow-up"></span></a>
+            </div>
+        </footer>
     </div>
 </body>
 

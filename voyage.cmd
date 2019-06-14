@@ -12,7 +12,12 @@ if %1==img (
 )
 
 if %1==git goto:git
-if %2==push goto:push
+if %1==pull (
+  git pull origin voyage
+  goto:eof
+)
+if %1==push goto:push
+
 
 echo unknonwn command %1
 

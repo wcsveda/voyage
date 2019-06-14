@@ -2,7 +2,7 @@ section#holiday-types
   +heading('HOLIDAYS TYPES', 'get explore your dream to traval the world!')
   .types
     mixin  card(title, selected)
-      div(class=selected ? 'card selected' : 'card') 
+      div(class='card') 
         .svg_wrap
           block
         span=title
@@ -10,7 +10,7 @@ section#holiday-types
       include ../svgs/cruise.svg
     +card('City Breaks')
       include ../svgs/building.svg
-    +card('Honeymoon', true)
+    +card('Honeymoon')
        include ../svgs/hearts-couple.svg
     +card('Adventure')
        include ../svgs/compass.svg

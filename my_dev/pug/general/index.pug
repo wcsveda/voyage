@@ -11,11 +11,22 @@ block body
          h1.heading
           =title 
           span=subtitle
+
+      
+      //include ./parts/07-reviews.pug
+      
     
       header
         include ./parts/01-contact-nav.pug
         include ./parts/02-brand-nav.pug
+      
       include ./parts/03-jumbo-carousal.pug
       include ./parts/04-holiday-finder.pug
       include ./parts/05-special-offers.pug
       include ./parts/06-holiday-types.pug
+      include ./parts/07-reviews.pug
+
+      footer
+        include ./parts/08-footer1.pug
+        include ./parts/09-footer2.pug
+        include ./parts/10-backtotop.pug

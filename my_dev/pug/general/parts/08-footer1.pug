@@ -1,0 +1,41 @@
+div#footer1
+  div
+    mixin section(cls, title)
+      section(class=cls)
+        h2=title
+        block
+    +section('newsletter', 'Newsletter')
+      p Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av.
+      form
+        input(type="text", placeholder='Subscribes...')
+        button(type="submit") GO
+  
+    +section('letest_news', 'Letest News')
+      mixin news(img, news, date_for_human, date)
+        .news
+          img(src=img, alt=news)
+          p 
+            =news
+            time(datetime=date)=date_for_human
+
+      +news('https://source.unsplash.com/collection/973590/200x200', 'Postformat Gallary: Multiple images', 'October 21, 2013 - 3:31 pm')
+      +news('https://source.unsplash.com/collection/2938669/200x200', 'Snow Boarding is fun', 'December 12, 2012 - 9:11 pm')
+  
+    +section('tags', 'Tags')
+       ul
+        each val in ['Agent Login', 'Customer Login', 'Not a Member', 'Contact', 'New Horizons', 'Landscape', 'Tags', 'Nice', 'Some', 'Portrait']
+          li: a(href="#")=val
+  
+    +section('address', 'Address')
+      address 
+        | DieSachbearbeiter Schonhauser Allee 167c,10435 Berlin Germany
+        a(href="mailto:moin@blindtextgenerator.de")
+          span E-mail:
+          | moin@blindtextgenerator.de
+      div.social_links
+        ul
+          each val in ['facebook', 'twitter', 'tumblr', 'pinterest']
+            li
+              a(href="#") 
+                +icon(val)
+        

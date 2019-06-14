@@ -14,7 +14,8 @@ const fromNode = [
 
 const fromDist = [
 	// "js/vendor/redom.min.js",
-	// "js/index-browserify.js"
+    // "js/index-browserify.js"
+    'https://redom.js.org/redom.min.js',
     'js/index.js'
 	];
 

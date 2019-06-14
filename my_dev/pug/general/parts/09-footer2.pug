@@ -1,0 +1,6 @@
+div#footer2
+  div
+    ul
+      each val in ['Home', 'Destinations', 'Criuses', 'Spcials', "Holidays", 'Blog', 'Contact Us']
+        li: a(href="#", class=val === 'Home' ? 'selected' : undefined)=val
+    p Copyright @voyage. All Right Reserved
