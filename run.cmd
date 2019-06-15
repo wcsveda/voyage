@@ -16,11 +16,6 @@ IF %1==s  (
 node live-server.js
 goto:eof
 )
-if %1==collect (
-  cd C:\Users\Sameer\Documents\MEGA\programming_backup\CodePens\app
-  run pc
-  goto:eof
-)
 
 if %1==swa (
   start cmd /c "gulp wa"
