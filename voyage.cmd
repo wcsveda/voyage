@@ -13,7 +13,7 @@ if %1==img (
 
 if %1==git goto:git
 if %1==pull (
-  git pull origin voyage
+  git pull origin master
   goto:eof
 )
 if %1==push goto:push
@@ -35,4 +35,4 @@ if "%MSG%"=="" (
 git commit -m "%MSG%"
 
 :push
-git push origin voyage
+git push origin master
